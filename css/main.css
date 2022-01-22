@@ -1,0 +1,467 @@
+:root {
+    --h1: 30px;
+    --h2: 26px;
+    --h3: 22px;
+    --pb: 20px;
+    --pm: 16px;
+    --ps: 12px;
+    --btn: 20px;
+    --black: #000;
+    --dark: #232830;
+    --white: #fff;
+    --dorado: #dab800;
+    --primary: #4ba3f0;
+    --primary-hover: #024075;
+    --secondary: #ca3079;
+    --secondary-hover: #6b173f;
+    --section-padding: 48px 12px;
+}
+body {
+    margin: 0px;
+    font-family: 'Noto Sans', sans-serif;
+}
+.fondo {
+    background-attachment: fixed;
+    background-color: var(--dark);
+    background-position: center;
+    background-size: cover;
+}
+.background--presentation {
+    background-image: url(../assets/images/encabezado700.jpg);
+}
+.overlay--presentation {
+    background-color: rgb(23, 28, 30, 0.7);
+}
+.overlay--call {
+    background-color: rgb(23, 28, 30, 0.7);
+}
+.presentation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.presentation-logo {
+    height: auto;
+    width: 150px;
+}
+.presentation-title {
+    font-size: var(--h1);
+    color: var(--white);
+    margin: 48px 0px;
+}
+.strong-primary {
+    color: var(--primary);
+}
+.presentation-benefit {
+    color: var(--white);
+    font-size: var(--pm);
+}
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    box-sizing: border-box;
+    margin-top: 48px;
+    opacity: 1;
+    padding: 24px 12px;
+    width: 280px;
+}
+.form-callToAction {
+    font-size: var(--pb);
+    margin: 0px;
+}
+.form-message {
+    font-size: var(--pm);
+    margin: 28px 0px;
+}
+.field {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: var(--pm);
+    height: 52px;
+    margin-bottom: 8px;
+    padding-left: 12px;
+    width: 90%;
+}
+.field--textarea{
+    height: 70px;
+    padding-top: 10px;
+}
+.field:nth-child(5) {
+    font-family: 'Noto Sans', sans-serif;
+    margin-bottom: 28px;
+    padding-top: 12px;
+}
+.buton {
+    background-color: var(--primary);
+    border: none;
+    color: var(--white);
+    font-size: var(--btn);
+    font-weight: bold;
+    height: 60px;
+    width: 240px;
+}
+.buton:hover {
+    background-color: var(--primary-hover);
+    cursor: pointer;
+}
+.buton--form {
+    font-size: 1em;
+    width: 90%;
+}
+.section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: var(--section-padding);
+    text-align: center;
+}
+.section-title {
+    font-size: var(--h2);
+    font-weight: normal;
+    margin: 0px;
+}
+.carousel-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.carousel-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.carousel-item {
+    margin: 42px 0px;
+}
+.item--disabled {
+    display: none;
+}
+.carousel-image {
+    height: 300px;
+    cursor: pointer;
+    object-fit: cover;
+    width: 300px;
+}
+.carousel-subtitle {
+    font-size: var(--h3);
+    margin: 28px 0px;
+}
+.carousel-paragraph {
+    font-size: var(--pm);
+    margin: 28px 0px 0px 0px;
+}
+.carousel-controls {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+.control-arrow {
+    background-color: var(--primary);
+    color: var(--white);
+    font-size: 30px;
+    font-weight: normal;
+    margin: 0px;
+    padding: 10px 18px;
+}
+.control-arrow:hover {
+    background-color: var(--primary-hover);
+    cursor: pointer;
+}
+.callToAction {
+        padding: var(--section-padding);
+        text-align: center;
+}
+.background--call1 {
+    background-image: url(../assets/images/call1700.jpg);
+}
+.background--call2 {
+    background-image: url(../assets/images/call2700.jpg);
+}
+.background--call3 {
+    background-image: url(../assets/images/call3.jpg);
+}
+.callToAction-title {
+    color: var(--white);
+    font-size: var(--h2);
+    font-weight: normal;
+    margin: 0px 0px 40px 0px;
+}
+.callToAction-title--call3 {
+    font-size: var(--h1);
+    font-weight: bold;
+}
+.callToAction-paragraph {
+    color: var(--white);
+    font-size: var(--pm);
+    margin: 36px 0px 50px 0px;
+}
+.callToAction-data {
+    margin: 52px 0px 32px 0px;
+}
+.data-container {
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: var(--ps);
+}
+.data-icon {
+    margin-right: 8px;
+    width: 24px;
+}
+.agency {
+    background-color: var(--black);
+    padding: 12px 12px;
+    text-align: center;
+}
+.agency-text {
+    color: var(--white);
+    font-size: var(--ps);
+    margin: 0;
+}
+.strong-dorado {
+    color: var(--dorado);
+}
+
+.brand-logo {
+    height: auto;
+    margin: 40px 0px 25px 0px;
+    width: 150px;
+}
+.brand-characteristic {
+    margin-top: 0px;
+}
+.brand-map {
+    margin-top: 30px;
+    max-width: 400px;
+    width: 100%;
+}
+
+.overlay-popup {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: rgb(23, 28, 30, 0.8);
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	visibility: hidden;
+}
+
+.overlay--active {
+	visibility: visible;
+}
+
+.popup {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	background-color: var(--white);
+	box-sizing: border-box;
+	box-shadow: 0px 0px 20px 0px black;
+	opacity: 0;
+	padding: 10px 10px 25px 10px;
+	transition: .3s ease all;
+	transform: scale(0.7);
+}
+
+.popup-container-image {
+	height: 90%;
+	justify-content: space-between;
+	max-height: 90vw;
+	padding: 10px;
+}
+
+.popup-image {
+	height: 90%;
+}
+
+.popup--active {
+	opacity: 1;
+	transform: scale(1);
+}
+
+.popup-close-container {
+	display: flex;
+	align-self: end;
+	justify-content: right;
+}
+
+.popup-close-icon {
+	border: 1px solid rgb(255, 255, 255, 1);
+	position: relative;
+	padding: 2px;
+	right: 10px;
+	top: 10px;
+	width: 20px;
+}
+
+.popup-close-icon:hover {
+	border: 1px solid rgb(255, 0, 0, 1);
+	cursor: pointer;
+}
+
+.loader-text, .thanks-text, .error-text {
+	font-size: var(--section-title-size-desktop);
+	margin-bottom: 0px;
+	text-align: center;
+}
+
+.loader-container {
+	height: 100px;
+	position: relative;
+	margin: 50px;
+	width: 100px;
+}
+
+.loader1 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	height: 100%;
+	width: 100%;
+	border: solid 7px transparent;
+	border-top-color: var(--green-ligth);
+	border-left-color: var(--green-ligth);
+	border-radius: 50%;
+	animation: loader 1.2s linear infinite;
+}
+
+.loader2 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	height: 70%;
+	width: 70%;
+	border: solid 7px transparent;
+	border-top-color: var(--green-ligth);
+	border-left-color: var(--green-ligth);
+	border-radius: 50%;
+	animation: loader2 1.2s linear infinite;
+}
+
+.thanks-message, .error-message {
+	text-align: center;
+}
+
+@keyframes loader {
+	0% {
+		transform: translate(-50%, -50%) rotate(0deg);
+	}
+	100% {
+		transform: translate(-50%, -50%) rotate(360deg);
+	}
+}
+
+@keyframes loader2 {
+	0% {
+		transform: translate(-50%, -50%) rotate(0deg);
+	}
+	100% {
+		transform: translate(-50%, -50%) rotate(-360deg);
+	}
+}
+
+@media (min-width: 800px) {
+
+    :root {
+        --h1: 34px;
+        --h2: 28px;
+        --h3: 23px;
+        --pb: 21px;
+        --pm: 17px;
+        --ps: 13px;
+        --section-padding: 72px 5%;
+    }
+
+    .section {
+        padding: var(--section-padding);
+    }
+    .background-presentation {
+        background-image: url(../assets/images/encabezado.jpg);
+    }
+    .presentation {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .presentation-texts {
+        width: 50%;
+    }
+    .form-container {
+        min-width: 270px;
+        width: 30%;
+    }
+    .form-message {
+        font-size: var(--ps);
+    }
+    .item--disabled {
+        display: block;
+    }
+    .carousel-item {
+        width: 30%;
+    }
+    .carousel-image {
+        width: 100%;
+    }
+    .carousel-controls {
+        display: none;
+    }
+    .background--call1 {
+        background-image: url(../assets/images/call1.jpg);
+    }
+    .background--call2 {
+        background-image: url(../assets/images/call2.jpg);
+    }
+    .background--call3 {
+        background-image: url(../assets/images/call3.jpg);
+    }
+    .callToAction {
+        padding: var(--section-padding);
+    }
+    .brand-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .brand-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+    }
+    .brand-characteristic {
+        font-size: var(--paragraph-medium);
+        width: 82%;
+    }
+    .brand-map {
+        height: 300px;
+        margin: 30px;
+        width: 400px;
+    }
+}
+
+@media (min-width: 1100px) {
+
+    :root {
+        --h1: 38px;
+        --h2: 30px;
+        --h3: 24px;
+        --pb: 22px;
+        --pm: 18px;
+        --ps: 14px;
+        --section-padding: 72px 12%;
+    }
+    .field {
+        font-size: var(--ps);
+    }
+    .carousel-item {
+        width: 20%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
