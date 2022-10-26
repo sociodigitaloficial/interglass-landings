@@ -15,7 +15,7 @@
 
     $server = "localhost";
     $user = "sociodig_user_interglass";
-    $password ="S+IA?q3kZs[0";
+    $password ="";
     $database = "sociodig_interglass";
     
     $conexion = new mysqli($server, $user, $password, $database);
@@ -47,7 +47,7 @@
     $mail->Host       = 'blue107.dnsmisitio.net';
     $mail->SMTPAuth   = true;
     $mail->Username   = 'notificaciones@sociodigital.cl';
-    $mail->Password   = '5!mE_SCs*s.d';
+    $mail->Password   = '';
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
     $mail->Port       = 465;   
 	$mail->CharSet = 'UTF-8';
